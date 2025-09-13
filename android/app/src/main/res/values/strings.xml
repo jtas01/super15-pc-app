@@ -4,4 +4,6 @@
   <string name="title_activity_main">Super15</string>
   <string name="package_name">com.super15.app</string>
   <string name="custom_url_scheme">com.super15.app</string>
+  <string name="facebook_app_id">2171077560027599</string>
+  <string name="facebook_client_token">d5a52d58a39c983f0554f94543c39609</string>
 </resources>

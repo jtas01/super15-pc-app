@@ -28,6 +28,14 @@ import { useEffect } from "react";
 import { RecoilRoot } from "recoil";
 import AuthChecker from "../components/AuthChecker";
 import NonSSRWrapper from "../components/NonSSRWrapper";
+// import { FacebookLogin } from "@capacitor-community/facebook-login";
+
+// const initializeSDK = async () => {
+//   await FacebookLogin.initialize({
+//     appId: "2171077560027599", // You can get this from strings.xml
+//     version: "v18.0", // Use the latest version
+//   });
+// };
 
 setupIonicReact();
 
@@ -41,6 +49,8 @@ function MyApp({ Component, pageProps }) {
         window.history.back();
       }
     });
+
+    // initializeSDK();
   }, []);
 
   return (

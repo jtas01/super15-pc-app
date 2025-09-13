@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-def sysBuildNumber = 10
+def sysBuildNumber = 15
 
 android {
     namespace "com.super15.app"
@@ -41,6 +41,7 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
     implementation project(':capacitor-cordova-android-plugins')
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
 }
 
 apply from: 'capacitor.build.gradle'
